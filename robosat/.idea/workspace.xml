@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4cb1136a-38c4-4034-83c8-8f980361f910" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/config/dataset-building.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/._buia_xiamen_shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/__MACOSX/buia_xiamen_shp/._buia_xiamen.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/buia_xiamen_shp/buia_xiamen.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robosat/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robosat/tools/rasterize.py" beforeDir="false" afterPath="$PROJECT_DIR$/robosat/tools/rasterize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermercado/supermercado/edge_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/supermercado/supermercado/edge_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermercado/supermercado/uniontiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/supermercado/supermercado/uniontiles.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Ezio-Auditore-Da-Firenze" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="robosat_water_tjut" />
+  </component>
+  <component name="ProjectId" id="1ZpPRXH5VI5MJr1ijaZvUfLvBIa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RunManager" selected="Python.cover">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="robosat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robosat/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robosat/tools/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="robosat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="robosat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robosat/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robosat/tools/cover.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="robosat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robosat/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robosat/tools/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cover" />
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cb1136a-38c4-4034-83c8-8f980361f910" name="默认更改列表" comment="" />
+      <created>1585533054687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585533054687</updated>
+      <workItem from="1585533059100" duration="2427000" />
+      <workItem from="1585536619639" duration="214000" />
+      <workItem from="1585536858183" duration="382000" />
+      <workItem from="1585537265075" duration="3257000" />
+      <workItem from="1585552520433" duration="1033000" />
+      <workItem from="1585634777127" duration="1515000" />
+      <workItem from="1585636313731" duration="820000" />
+      <workItem from="1585699783832" duration="5123000" />
+      <workItem from="1585718236116" duration="3503000" />
+      <workItem from="1585786736727" duration="1111000" />
+    </task>
+    <task id="LOCAL-00001" summary="解决supermeracado问题">
+      <created>1585636516805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585636516805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="解决supermeracado问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决supermeracado问题" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1585533167495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585533167495" />
+    <state x="778" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585700249489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="778" y="309" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585700249489" />
+    <state x="573" y="18" key="CommitChangelistDialog2" timestamp="1585636514603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="573" y="18" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585636514603" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1585635606504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585635606504" />
+    <state x="668" y="379" key="Github.CreatePullRequestDialog" timestamp="1585636049985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="379" key="Github.CreatePullRequestDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585636049985" />
+    <state x="821" y="410" width="277" height="286" key="Github.ShareDialog" timestamp="1585635099010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="410" width="277" height="286" key="Github.ShareDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585635099010" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1585710795350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585710795350" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1585710795350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585710795350" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1585710795350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585710795350" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1585710795350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585710795350" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1585718721083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585718721083" />
+    <state x="699" y="141" key="VCS.ChangeListViewerDialog" timestamp="1585635724563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="141" key="VCS.ChangeListViewerDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585635724563" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1585636531531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585636531531" />
+    <state x="751" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585636029484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585636029484" />
+    <state x="744" y="362" key="git4idea.rebase.GitRebaseDialog" timestamp="1585635579639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="362" key="git4idea.rebase.GitRebaseDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585635579639" />
+    <state x="761" y="405" key="git4idea.ui.GitResetDialog" timestamp="1585635725704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="405" key="git4idea.ui.GitResetDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585635725704" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/robosat$train.coverage" NAME="train Coverage Results" MODIFIED="1585700745598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robosat/tools" />
+  </component>
+</project>
