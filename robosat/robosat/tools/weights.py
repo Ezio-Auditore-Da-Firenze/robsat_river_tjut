@@ -1,5 +1,6 @@
 import os
 import argparse
+import sys
 
 import numpy as np
 from tqdm import tqdm
@@ -8,22 +9,28 @@ import torch
 from torch.utils.data import DataLoader
 from torchvision.transforms import Compose
 
-from robosat.config import load_config
-from robosat.datasets import SlippyMapTiles
-from robosat.transforms import ConvertImageMode, MaskToTensor
+from robosat.robosat.config import load_config
+from robosat.robosat.datasets import SlippyMapTiles
+from robosat.robosat.transforms import ConvertImageMode, MaskToTensor
 
-
+sys.path.append("F:\\PyCharmWorkSpace\\robsat_train")
 def add_parser(subparser):
     parser = subparser.add_parser(
         "weights", help="computes class weights on dataset", formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
-    parser.add_argument("--dataset", type=str, required=True, help="path to dataset configuration file")
+    parser.add_argument("--dataset", type=str, default="F:\\PyCharmWorkSpace\\robsat_train\\water_dataset.toml", help="path to dataset configuration file")
 
     parser.set_defaults(func=main)
 
+def parse_default():
+    parse = argparse.ArgumentParser(description="test")
+    parse.add_argument("--dataset", type=str, default="F:\\PyCharmWorkSpace\\robsat_train\\water_dataset.toml", help="path to dataset configuration file")
+    return parse.parse_args()
 
-def main(args):
+def main():
+    args = parse_default()
+    print(args)
     dataset = load_config(args.dataset)
 
     path = dataset["common"]["dataset"]
@@ -57,3 +64,8 @@ def main(args):
 
     weights.round(6, out=weights)
     print(weights.tolist())
+
+if __name__ == '__main__':
+    # args = parse_default()
+    main()
+    # test_train()

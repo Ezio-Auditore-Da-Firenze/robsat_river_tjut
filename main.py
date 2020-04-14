@@ -165,18 +165,19 @@ def test_train():
                 val_hist["loss"], val_hist["miou"], dataset["common"]["classes"][1], val_hist["fg_iou"], val_hist["mcc"]
             )
         )
+        if (epoch+1) % 10 == 0:
+            for k, v in val_hist.items():
+                history["val " + k].append(v)
 
-        for k, v in val_hist.items():
-            history["val " + k].append(v)
+            visual = "history-{:05d}-of-{:05d}.png".format(epoch + 1, num_epochs)
+            plot(os.path.join(model["common"]["checkpoint"], visual), history)
 
-        visual = "history-{:05d}-of-{:05d}.png".format(epoch + 1, num_epochs)
-        plot(os.path.join(model["common"]["checkpoint"], visual), history)
+            checkpoint = "checkpoint-{:05d}-of-{:05d}.pth".format(epoch + 1, num_epochs)
 
-        checkpoint = "checkpoint-{:05d}-of-{:05d}.pth".format(epoch + 1, num_epochs)
+            states = {"epoch": epoch + 1, "state_dict": net.state_dict(), "optimizer": optimizer.state_dict()}
 
-        states = {"epoch": epoch + 1, "state_dict": net.state_dict(), "optimizer": optimizer.state_dict()}
+            torch.save(states, os.path.join(model["common"]["checkpoint"], checkpoint))
 
-        torch.save(states, os.path.join(model["common"]["checkpoint"], checkpoint))
 
 
 if __name__ == '__main__':

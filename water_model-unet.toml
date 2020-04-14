@@ -9,9 +9,8 @@
   cuda       = true
   # Batch size for training.
   batch_size = 2
-  CUDA_LAUNCH_BLOCKING = 1
   # Image side size in pixels.
-  image_size = 512
+  image_size = 768
 
   # Directory where to save checkpoints to during training.
   checkpoint = 'D:\BaiduNetdiskDownload\water_dataset\checkpoint'
@@ -21,9 +20,9 @@
 [opt]
 
   # Total number of epochs to train for.
-  epochs     = 40
+  epochs     = 30
 
   # Learning rate for the optimizer.
   lr         = 0.0001
   # Loss function name (e.g 'Lovasz', 'mIoU' or 'CrossEntropy')
-  loss = 'Lovasz'
+  loss = 'mIoU'
