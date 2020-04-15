@@ -169,13 +169,13 @@ def test_train():
         for k, v in val_hist.items():
             history["val " + k].append(v)
 
-        visual = "2.1-history-{:05d}-of-{:05d}.png".format(epoch + 1, num_epochs)
+        visual = "2.7-history-{:05d}-of-{:05d}.png".format(epoch + 1, num_epochs)
         plot(os.path.join(model["common"]["checkpoint"], visual), history)
 
-        # if (epoch + 1) % 10 == 0:
-        checkpoint = "2.1-checkpoint-{:05d}-of-{:05d}.pth".format(epoch + 1, num_epochs)
-        states = {"epoch": epoch + 1, "state_dict": net.state_dict(), "optimizer": optimizer.state_dict()}
-        torch.save(states, os.path.join(model["common"]["checkpoint"], checkpoint))
+        if (epoch + 1) % 2 == 0:
+            checkpoint = "2.7-checkpoint-{:05d}-of-{:05d}.pth".format(epoch + 1, num_epochs)
+            states = {"epoch": epoch + 1, "state_dict": net.state_dict(), "optimizer": optimizer.state_dict()}
+            torch.save(states, os.path.join(model["common"]["checkpoint"], checkpoint))
 
 
 

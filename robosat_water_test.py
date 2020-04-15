@@ -14,7 +14,7 @@ import cv2 as cv
 def parse_default():
     parse = argparse.ArgumentParser(description="test")
     parse.add_argument("--batch_size", type=int, default=1, help="images per batch")
-    parse.add_argument("--checkpoint", type=str, default="D:\\BaiduNetdiskDownload\\water_dataset\\checkpoint\\2.0-checkpoint-00010-of-00030.pth",  help="model checkpoint to load")
+    parse.add_argument("--checkpoint", type=str, default="D:\\BaiduNetdiskDownload\\water_dataset\\checkpoint\\2.7-checkpoint-00002-of-00010.pth",  help="model checkpoint to load")
     parse.add_argument("--overlap", type=int, default=32, help="tile pixel overlap to predict on")
     parse.add_argument("--tile_size", type=int, default=448,  help="tile size for slippy map tiles")
     parse.add_argument("--workers", type=int, default=0, help="number of workers pre-processing images")
