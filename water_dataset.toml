@@ -13,5 +13,5 @@
   # Color map for visualization and representing classes in masks.
   # Note: available colors can be found in `robosat/colors.py`
   colors  = ['denim', 'blue']
-  [weights]
-  values =  [2.659651, 2.175422]
+ # [weights]
+ # values =  [2.659651, 2.175422]
